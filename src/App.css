@@ -1,0 +1,84 @@
+@import "tailwindcss";
+body {
+  background: linear-gradient(to bottom, #113c9f, #af9fd9);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure full viewport height */
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #faf4f4;
+}
+
+/* Footer Styling */
+.footer {
+  color: white;
+  padding: 1rem;
+  margin-top: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 3rem;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.footer-icons a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-icons a:hover {
+  color: #05337e; /* Tailwind's blue-500 */
+}
