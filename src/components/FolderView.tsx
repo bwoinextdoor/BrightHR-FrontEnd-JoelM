@@ -52,6 +52,7 @@ const FolderView = () => {
         background: 'linear-gradient(45deg,rgb(60, 220, 226) 30%,rgb(255, 142, 83) 90%)',
         animation: 'gradient 3s ease infinite'
         }}
+        aria-label="Go back to previous folder"
       >
         Back
       </button>
@@ -64,6 +65,7 @@ const FolderView = () => {
         value={sortCriteria}
         onChange={(e) => handleSortChange(e.target.value as "name" | "date")}
         className="border px-2 py-1"
+        aria-label="Sort files by name or date"
         >
         <option value="name">Name</option>
         <option value="date">Date</option>
@@ -76,6 +78,7 @@ const FolderView = () => {
         value={filterText}
         onChange={handleFilterChange}
         className="border px-2 py-1"
+        aria-label="Filter files by name"
         />
       </div>
       </div>
