@@ -2,9 +2,9 @@
 
 Developed using React and TypeScript. It enables users to view, sort, and filter files and folders. The project was completed within 1 hour and 16 minutes
 
-## Demo
+## App Video Demo
+![Alt text](https://github.com/bwoinextdoor/BrightHR-FrontEnd-JoelM/blob/main/public/demo%2000.46.45.gif)
 
-Deployed to (enter link here)
 
 ## Functionalities
 
