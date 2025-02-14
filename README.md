@@ -15,12 +15,12 @@ Filter by name/file/folder
 
 ## Extra  Features
 
-Aria Labels for accessibility
-Buttons for Viewing and Returning
-Brighthr colour theme (65% Accurate)
-Tilt Flip Features enhancing interactive UX/UI
-Hover Effects
-BrightHR Social Contacts ( Linkedin, Facebook, X and Instagram)
+- Aria Labels for accessibility
+- Buttons for Viewing and Returning
+- Brighthr colour theme (65% Accurate)
+- Tilt Flip Features enhancing interactive UX/UI
+- Hover Effects
+- BrightHR Social Contacts ( Linkedin, Facebook, X and Instagram)
 
 ## Future Consideration
 
